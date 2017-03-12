@@ -1,0 +1,4 @@
+#!/bin/bash
+
+f2py -c -m dft_su_sfera module_dft.f95 >/dev/null
+rm -f *.o
